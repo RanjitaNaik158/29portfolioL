@@ -1,0 +1,612 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins"; */
+    font-family: Verdana, sans-serif;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    /* background-color: #f0f0f0; */
+    background-color: lightskyblue;
+
+    
+}
+
+.main-container {
+    position: relative;
+    width: auto;
+    background-color: #fff;     
+    /* background-color: #0e387a; */
+    /* background-color: #5278D2;   */
+   
+    /* background-color: aqua; */
+    min-height: 650px;
+    border-radius: 10px;
+    color: rgb(31, 31, 31);
+    margin: 0;
+    text-align: justify;
+    /* margin-bottom: 50px; */
+}
+.main-container .top-conatiner {
+    width: 100%;
+    /* background-color: aliceblue; */
+    /* background-color: #5278D2;   */
+    /* background-color: #0e387a; */
+    /* //only header  color */ 
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    gap: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    margin: 0;
+    
+}
+.main-container .top-conatiner .img-conatiner {
+     background-color: #003147; 
+    /* background-color: #5278d2;    background color of image  */
+    padding: 1rem 4rem;
+    /* padding: 1rem 3.1rem; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100px;
+    /* margin-left: 26px; */
+    
+    /* padding-bottom: 70p; */
+}
+.main-container .top-conatiner .img-conatiner img {
+    width: 8rem;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.main-container .top-conatiner .text-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem 0;
+    /* margin-left: 50px; */
+    /* margin-left: 30px; */
+}
+.main-container .top-conatiner .text-container .heading-container .h1 {
+    text-transform: capitalize;
+    /* letter-spacing: 3px; */
+    font-size: 30px;
+    font-weight: 400;
+}
+.main-container .top-conatiner .text-container .heading-container .h2 {
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.main-container .top-conatiner .text-container .subheading-container {
+    /* color: #7d7d7d; */ 
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.main-container .top-conatiner .collegelogo-container {
+    display: flex;
+    align-items: center;
+    /* width: 140px;    */
+    /* height: 160px; */
+    /* border-radius: 50%; */
+    /* border: 15px solid white; */
+    /* border-radius: 50%; */
+    padding: 0rem 1rem;
+}
+.main-container .top-conatiner .collegelogo-container img {
+    width: 7.5rem;
+    /* height: 9rem; */
+    /* border-color: whi; */
+    /* border-radius: 50%; */
+    /* border-color: white; */
+    /* border: 2px solid black; */
+    /* border-style: solid; */
+    -o-object-fit: fill;
+    object-fit: fill;
+    /* background-color: #0e387a; */
+}
+.main-container .bottom-container {
+    padding: 1rem 30px;
+    color: rgb(31, 31, 31);
+    /* color: #fff; */
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    align-items: flex-start;
+    font-weight: 500;
+}
+.bottom-container
+.left-section
+{
+    background-color: #003147;
+    padding: 10px;
+    height: fit-content;
+    color: #fff;
+    /* margin: 40px; */
+    /* margin-top: 0px; */
+    
+}
+.bottom-container
+.right-section
+{
+    background-color: #fff;
+}
+/* .bottom-container{ */
+    /* max-width: 1000px; */
+    /* max-height: 1000px; */
+    /* box-shadow: 0 35px 55px rgba(); */
+/* } */
+.main-container .bottom-container .left-section {
+    width: 225px;
+    height: 700px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color:#003147;
+    
+        /* background-color: #5278D2; */
+    /* background-color: #0e387a; */
+}
+.main-container .bottom-container .left-section .bottomheading {
+    text-transform: uppercase;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+    margin-bottom: 15px;
+    
+}
+.main-container .bottom-container .left-section .bottomtext {
+    font-size: 11px;
+  
+}
+.main-container .bottom-container .left-section .bottomstartcontent {
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.main-container
+    .bottom-container
+    .left-section
+    .bottomstartcontent
+    .starheading {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.main-container .bottom-container .left-section .bottomstartcontent .stars {
+    font-size: 12px;
+    color: rgb(215, 195, 14);
+    justify-self: end;
+    
+}
+.main-container .bottom-container .left-section .bottomsaddress {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    gap: 5px;
+    
+}
+.main-container
+    .bottom-container
+    .left-section
+    .bottomsaddress
+    .addressheading {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+.main-container .bottom-container .left-section .bottomsaddress .address {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+.main-container .bottom-container .right-section {
+    flex: 1;
+    /* margin-left: 20px; */
+    margin-left: 25px;
+    /* margin-bottom: 500px; */
+    /* padding-bottom: 500px; */
+}
+.main-container .bottom-container .right-section .rightcontainer {
+    margin-bottom: 25px;
+    /* margin-bottom: 30px; */
+}
+.main-container .bottom-container .right-section .rightcontainer .rightheading {
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 15px;
+    font-weight: 500;
+}
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .rightheading
+    i {
+    margin-right: 5px;
+}
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .rightheading::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background-color:#003147;
+}
+.main-container .bottom-container .right-section .rightcontainer .righttext {
+    font-size: 12px;
+    margin: 10px 15px;
+}
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .righttext
+    .educationheading {
+    font-weight: 600;
+    color: #003147;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .righttext
+    .educationwrapper {
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .righttext
+    .educationwrapper
+    .schoolname{
+        text-align: start;
+    }
+
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .righttext
+    .educationwrapper
+    .yrofcomp {
+    justify-self: end;
+    text-align: justify;
+}
+.main-container .bottom-container .right-section .rightcontainer .score {
+    font-weight: 500;
+    text-align: justify;
+}
+
+.educationwrapper{
+    margin-bottom: 5px;
+}
+
+.main-container .bottom-container .right-section .rightcontainer 
+.collegename{
+
+    font-size: 13px;
+    color: #7d7d7d;
+
+}
+
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .righttext-wrapper {
+    font-size: 12px;
+    margin: 10px 15px;
+    text-align: justify;
+}
+
+.main-container
+    .bottom-container
+    .right-section
+    .rightcontainer
+    .skills-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 11px;
+    
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 10px 35px;
+    max-width: 20px;
+    /* padding: 7px; */
+}
+
+.righttext-wrapper .noofachi .worktype{
+    font-size: 14px;
+    font-weight: 600;
+    color: #7d7d7d;
+    margin: 15px 0 10px;
+
+}
+
+
+.righttext-wrapper .noofachi  .companydetailscontainer{
+    margin: 10px 0;
+}
+
+.righttext-wrapper .noofachi .companyname{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.righttext-wrapper .noofachi .companyname .company{
+    font-size: 16px;
+    color: #003147;
+    font-weight: 600;
+    max-width: 55%;
+    text-align: start;
+}
+
+.righttext-wrapper .noofachi .timendate{
+    margin: 5px 0 10px;
+    font-size: 12px;
+}
+
+.righttext-wrapper .noofachi .roles{
+    text-align: justify;
+}
+
+.main-container .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0.5rem 2.5rem;
+    gap: 2rem;
+}
+.main-container .button-container .button-primary {
+    padding: 8px 10px;
+    border: 1px solid #003147;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: -4px 4px #003147;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.main-container .button-container .button-primary:active {
+    translate: -2px 2px;
+}
+.main-container .watermark {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    opacity: 0.4;
+    pointer-events: none;
+    /* width: 300px; */
+}
+.main-container .watermark .para {
+    font-size: 14px;
+    /* background-color: #5278D2; */
+}
+.main-container .watermark .imgconts {
+    width: 6rem;
+    margin-top: 0.5px;
+    /* filter:brightness(550%); */
+}
+
+
+@media (max-width: 600px) {
+    .main-container {
+        margin: 0rem auto;
+    }
+    .bottom-container {
+        flex-direction: column;
+    }
+    .left-section {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    .left-section .starheading {
+        min-width: 15%;
+    }
+    .left-section .bottomstartcontent {
+        justify-content: flex-start !important;
+        gap: 3rem;
+        margin: 0 10px;
+    }
+    .left-section .bottomtext,
+    .left-section .bottomsaddress {
+        margin: 0 10px;
+    }
+    .right-section {
+        margin-left: 0 !important;
+        
+    }
+    .button-container {
+        margin-bottom: 1rem;
+    }
+    .main-container .top-conatiner {
+        gap: 1px;
+    }
+    .main-container .top-conatiner .img-conatiner {
+        padding: 0.5rem 1.5rem;
+    }
+    .main-container .top-conatiner .img-conatiner img {
+        width: 25%;
+    }
+    .main-container .top-conatiner .text-container {
+        gap: 5px;
+        /* padding: 0.5rem 0.2rem; */
+    }
+    .main-container .top-conatiner .text-container .heading-container .h1 {
+        font-size: 35px;
+        letter-spacing: normal;
+    }
+    .main-container .top-conatiner .text-container .heading-container .h2 {
+        letter-spacing: normal;
+        line-height: normal;
+    }
+}
+@media (max-width: 500px) {
+    .main-container .bottom-container{
+        padding: 0.6rem 25px;
+    }
+
+    
+    .main-container .watermark .para {
+        font-size: 13px;
+        /* background-color: #5278D2; */
+    }
+    .main-container .watermark .imgconts {
+        width: 5rem;
+        margin-top: 0.5px;
+        /* filter:brightness(550%); */
+    }
+    
+    .starheading {
+        min-width: 20% !important;
+    }
+    .img-conatiner img {
+        width: 4rem !important;
+    }
+    .collegelogo-container img {
+        max-width: 3.5rem !important;
+        border-radius: 0.5px;
+    }
+    .main-container .top-conatiner .text-container{
+        padding-inline-start: 5px;
+    }
+    .main-container .top-conatiner .text-container .heading-container .h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .main-container .top-conatiner .text-container .heading-container .h2 {
+        font-size: 13px;
+    }
+    .main-container .top-conatiner .text-container .subheading-container{
+        color: #7d7d7d;
+    }
+    .main-container
+        .bottom-container
+        .right-section
+        .rightcontainer
+        .skills-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-container .button-container {
+        gap: 10px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 300px) {
+    .main-container .top-conatiner .img-conatiner {
+        padding: 0.3rem 0.9rem;
+    }
+    .starheading {
+        min-width: 30% !important;
+    }
+    .img-conatiner img {
+        width: 2.5rem !important;
+    }
+    .collegelogo-container img {
+        /* width: 2.5rem !important; */
+        width: 2.5rem !important;
+        border-radius: 50%;
+    }
+    .subheading-container {
+        font-size: 10px !important;
+    }
+    .main-container .top-conatiner .text-container .heading-container .h1 {
+        
+        font-size: 18px;
+    }
+    .main-container .top-conatiner .text-container .heading-container .h2 {
+        font-size: 12px;
+    }
+    .button-container .button-primary {
+        font-size: 10px;
+    }
+    .main-container .bottom-container .right-section .rightcontainer {
+        max-width: 90% !important;
+        
+    }
+    .main-container
+        .bottom-container
+        .right-section
+        .rightcontainer
+        .righttext-wrapper {
+        margin-left: 0;
+        
+    }
+    .main-container .bottom-container .right-section .rightcontainer {
+        max-width: 99vw !important;
+    }
+    .main-container
+        .bottom-container
+        .right-section
+        .rightcontainer
+        .skills-wrapper {
+        margin-left: 0;
+    }
+}
+    @media (min-width:750px)
+    {
+        .main-container .bottom-container
+        {
+            position: relative;
+         }
+        .main-container .bottom-container .left-section
+        {
+            position: sticky;
+            top: 20px;
+        } 
+    }
+   
+    
+@media (min-width: 1024px){
+    .main-container{
+        width: 90%;
+        margin: 2% 0;
+    }
+}
+
+@media (min-width: 1300px){
+    .main-container{
+        width: 80%;
+        margin: 2% 0;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */

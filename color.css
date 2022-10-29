@@ -1,0 +1,231 @@
+.stars
+{
+    color: rgb(215, 195, 14);
+}
+.btn{
+    border-radius: 40px;
+    padding: 2px;
+    width: 100px;
+    /* border-color: #0e387a; */
+    /* background-color: dodgerblue; */
+    background-color: #003147;
+    /* color:floralwhite */
+    border: none;
+    color: #fff;
+    font-style: normal;
+    }
+    /* body{
+        font-size: 12px;
+    } */
+    .left-section
+    {
+        font-size: 16px;
+    }
+    .address{
+        color: #fff;
+    }
+   /* .bottomtext p */
+    /* { */
+        /* font-size: 80%; */
+        /* font-weight: 900; */
+    /* } */
+    /* .bottomheading-container */
+    /* { */
+        /* font-size: 30px; */
+    /* } */
+    /* .bottomheading
+    {
+        font-size: 20px;
+    } */
+    /* .bottomheading-container .bottomheading p.bottomtext
+    {
+        font-size: 30px;
+    } */
+    .listspaneading
+    {
+        font-size: 12px;
+    }
+    .a{
+        font-size: 13px;
+        /* color: black; */
+        /* color: rgb(31, 31, 31); */
+        color: #343a40; 
+    }
+    .bottomtext
+    {
+        font-size: 14px;
+    }
+    /* .right-section
+    {
+        font-size: 29px;
+    } */
+    #responsibility
+    {
+        font-size: 14px;
+        /* color: #343a40;  */
+        color: #6c757d;
+
+    }
+    #responsibility1
+    {
+        font-size: 14px;
+        /* color: #343a40;  */
+        color: #6c757d;
+        text-align: justify;
+    }
+    .listspaneading
+    {
+        font-size: 14px;
+    }
+    .project
+    {
+        font-size: 14px;
+        /* color: #343a40;  */
+        color: #6c757d;
+        text-align: justify;
+    }
+    .noofachi
+    {
+        font-size: 14px;
+    }
+    .educationwrapper
+    {
+        font-size: 14px;
+    }
+    .profile
+    {
+        font-size: 14px;
+        /* font-family: var(--bs-font-sans-serif); */
+        font-family: Verdana, sans-serif;
+        /* color: #6c757d; */
+        /* color: #343a40; */
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    /* .main-container .top-conatiner
+    {
+        width: 100%;
+        flex: 1;
+    }
+     */
+    .responsibility{
+        list-style: none;
+        list-style-type: none;
+        text-align: justify;
+    }
+    .starheading
+    {
+        /* color: #343a40;  */
+        color: #6c757d;
+    }
+    .address
+    {
+        /* color: #343a40;  */
+        color: #6c757d;
+    }
+    
+.schoolname
+{
+    /* color: #343a40;  */
+    color: #6c757d;
+    text-align: justify;
+}
+.score{
+    /* color: #343a40;   */
+    color: #6c757d;
+    text-align: justify;
+}
+.noofachi
+{
+    /* color: #343a40;  */
+    color: #6c757d;
+}
+/* .skills{
+    color: #343a40; 
+    font-style: bold;
+} */
+.button
+{
+    /* color: #343a40;   */
+    color: #6c757d;
+}
+.yrofcomp
+{
+    color: #6c757d;
+}
+#work
+{
+    /* color: black; */
+    color: #343a40; 
+    /* font-weight: 600; */
+    font-size: 13px;
+    /* font-size:small; */
+}
+#work1
+{
+    
+    color: #343a40; 
+    font-size: 13px;
+}
+.left-section
+{
+    background-color: #003147;
+}
+.bottom-container
+.left-section
+{
+    background-color: #003147;
+}
+/* .bottomheading */
+hr{
+    margin-top: 5px 25px;
+    /* width: 90px; */
+    height: 3px;
+    /* color: red; */
+    background-color: #003147;
+    margin-bottom: 12px;
+}
+/* .maincontainer */
+/* .rightcontainer */
+/* .rightheading */
+hr
+{
+    margin-top: 5px 25px;
+    height: 3px;
+    background-color: #003147;
+    margin-bottom: 12px;
+    /* width: 90px; */
+}
+.rightcontainer
+.rightheading
+{
+    margin-bottom: 12px;
+}
+.rightcontainer
+.rightheading
+.fa-solid fa-users-gear
+{
+    margin-bottom: 12px; 
+}
+/* .left-section
+ .bottomheading-container 
+{ 
+    background-color: #5278d2; 
+}  */
+/* .left
+{
+    background-color: red;
+} */
+#preloader
+{
+    background: white url(icon.gif) no-repeat center center;
+    background-size: 20%;
+    padding-top: 500px;
+    height: 300vh;
+    width: 260vh;
+    /* width: 100%; */
+    position: fixed;
+    z-index: 100;
+    margin-bottom: 690px;
+    
+}
